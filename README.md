@@ -8,9 +8,6 @@ class SoftwareEngineer {
         this.name = "Mahadev M";
         this.role = "Software Engineer";
         this.location = "Pune, Maharashtra";
-        this.contact = "+91 7588373045";
-        this.email = "mahadevmanerikar@gmail.com"; 
-        this.github = "Mahadev555"; 
         this.language_spoken = ["en_US"];
         this.code = ["JavaScript","Core Java", "SQL"];
         this.databases = ["PostgreSQL","MongoDB"];
