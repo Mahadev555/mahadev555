@@ -1,7 +1,6 @@
 ```js
 // -*- coding: utf-8 -*-
 
-
 class SoftwareEngineer {
 
     constructor() {
