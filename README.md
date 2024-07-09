@@ -1,4 +1,4 @@
-```{javascript}
+```js
 // -*- coding: utf-8 -*-
 
 
