@@ -12,8 +12,6 @@ class SoftwareEngineer {
         this.code = ["JavaScript","Core Java", "SQL"];
         this.databases = ["PostgreSQL","MongoDB"];
         this.frameworks = ["React", "Redux", "Express", "Node.js", "React Native"];
-        this.testing = ["Jest", "@testing-library/react"];
-        this.libraries = ["@mui","@antd"];
 
     sayHi() {
         console.log("Thanks for dropping by, hope you find some of my work interesting.");
