@@ -1,4 +1,6 @@
+```{javascript}
 // -*- coding: utf-8 -*-
+
 
 class SoftwareEngineer {
 
@@ -25,3 +27,5 @@ class SoftwareEngineer {
 
 const me = new SoftwareEngineer();
 me.sayHi();
+
+```
