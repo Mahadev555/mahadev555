@@ -1,34 +1,27 @@
-<h1 align="center">Hi 👋, I'm Mahadev Manerikar</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+// -*- coding: utf-8 -*-
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=mahadev555&label=Profile%20views&color=0e75b6&style=flat" alt="mahadev555" /> </p>
+class SoftwareEngineer {
 
-<p align="left"> <a href="https://twitter.com/ath_1252" target="blank"><img src="https://img.shields.io/twitter/follow/ath_1252?logo=twitter&style=for-the-badge" alt="ath_1252" /></a> </p>
+    constructor() {
+        this.name = "Mahadev M";
+        this.role = "Software Engineer";
+        this.location = "Pune, Maharashtra";
+        this.contact = "+91 7588373045";
+        this.email = "mahadevmanerikar@gmail.com"; 
+        this.github = "Mahadev555"; 
+        this.language_spoken = ["en_US"];
+        this.code = ["JavaScript","Core Java", "SQL"];
+        this.databases = ["PostgreSQL","MongoDB"];
+        this.frameworks = ["React", "Redux", "Express", "Node.js", "React Native"];
+        this.testing = ["Jest", "@testing-library/react"];
+        this.libraries = ["@mui","@antd"];
+        
+               }
 
-- 🔭 I’m currently working on [Youtube Clone (React)](https://youtube-mh.netlify.app/)
+    sayHi() {
+        console.log("Thanks for dropping by, hope you find some of my work interesting.");
+    }
+}
 
-- 🌱 I’m currently learning **React.js**
-
-- 👨‍💻 All of my projects are available at [https://mdev.netlify.app/](https://mdev.netlify.app/)
-
-- 💬 Ask me about **Java,React,Mysql**
-
-- 📫 How to reach me **mahadevmanerikar@gmail.com**
-
-- ⚡ Fun fact **I am a memer**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/ath_1252" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ath_1252" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/mahadev-manerikar-7636a3207/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/mahadev-manerikar-7636a3207/" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/https://leetcode.com/maha_dev555/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/maha_dev555/" height="30" width="40" /></a>
-</p>
-
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://babeljs.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg" alt="babel" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
-
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mahadev555&show_icons=true&locale=en&layout=compact" alt="mahadev555" /></p>
-
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=mahadev555&show_icons=true&locale=en" alt="mahadev555" /></p>
-
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mahadev555&" alt="mahadev555" /></p>
+const me = new SoftwareEngineer();
+me.sayHi();
