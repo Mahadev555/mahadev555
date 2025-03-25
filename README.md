@@ -1,4 +1,4 @@
-#!/usr/bin/python
+'''#!/usr/bin/python
 # -*- coding: utf-8 -*-
  
 class SoftwareEngineer:
@@ -16,3 +16,4 @@ class SoftwareEngineer:
  
 me = SoftwareEngineer()
 me.say_hi()
+'''
