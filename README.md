@@ -1,19 +1,21 @@
 ```python
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
- 
+
 class SoftwareEngineer:
- 
+
     def __init__(self):
         self.name = "Mahadev M"
-        self.role = "Software Engineer"
-        self.language_spoken = ["en_US"]
-        self.code = ["Python", "SQL", "Javascript"]
-        self.dev_ops = ["Azure", "Docker🐳"]
-        self.databases = ["postgresql", "SQL"]
- 
+        self.role = "AI Engineer & Backend-Focused Developer"
+        self.specialization = ["Agentic AI", "RAG Systems", "Automation"]
+        self.languages = ["Python", "JavaScript", "SQL"]
+        self.backend = ["FastAPI", "Node.js", "Microservices"]
+        self.cloud = ["Azure AI", "Azure Cloud", "Docker 🐳"]
+        self.databases = ["PostgreSQL", "Cosmos DB", "Vector DBs"]
+        self.current_focus = ["AI Agents", "Search Pipelines", "Backend Systems"]
+
     def say_hi(self):
-        print("Thanks for dropping by, hope you find some of my work interesting.")
- 
+        print("Building AI agents & backend systems. Glad you’re here.")
+
 me = SoftwareEngineer()
 me.say_hi()
