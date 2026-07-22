@@ -1,3 +1,31 @@
+```yaml
+-----:::.....    .. .              mahadev@github ───────────────────────────
+:::::::....  .=++*##%#*#+=.         · Role: ....................... AI Engineer
+.........   -%@@@@@@@@@@@@@-        · Focus: ..... Multi-Agent Systems, RAG
+.....      .%@@@@@@@@@@@@%@#-       · Stack: ..... FastAPI, LangGraph, Azure
+....        -@@@@@%#**#@@@@@+       · IDE: ............. VS Code, PyCharm
+            .@@@%%%#+=+**=--
+            =#%%%@@@@@%%#+:         · Languages: ...... Python, JS, TypeScript
+            =%#+*#%%%=-%*%=         · AI/GenAI: ..... LangGraph, MCP, LLMOps
+::::::...... *%*+*%%#*-: .    ..    · Databases: ... PostgreSQL, Cosmos, pgvector
+-::::::::... =@%#%%#*+*.........    · Cloud: ....... Azure AI, Functions, Blob
++----::::-:.=*#%@@@@@+-:::::::::    · DevOps: ................ Docker, CI/CD
+.......... :@#*##%@#- .:--------
+...        .%%##%#=      .....--    · Contact ────────────────────────────────
+..          +###-                   · Email: .... mahadevmanerikar@gmail.com
+          . -#*.            ..      · LinkedIn: ......... mahadev-manerikar
+   .      ...*#:        ... .:.     · Portfolio: ... mahadev-ai.netlify.app
+                                    · GitHub: ................. mahadev555
+
+                                    · Stats ──────────────────────────────────
+                                    · Production AI Systems: ............. 4+
+                                    · RAG Docs Processed: ............ 1,000+
+                                    · Real-time: ........ WebSockets, SSE
+                                    · Multi-Agent: ............ ServiceNow
+```
+
+---
+
 ```python
 class SoftwareEngineer:
     def __init__(self):
@@ -27,19 +55,19 @@ Experienced in designing, architecting, and deploying production-grade AI platfo
 
 ## 🧠 Tech Stack
 
-* AI/GenAI: RAG, Multi-Agent Systems, LangGraph, MCP
-* Backend: FastAPI, Node.js, Microservices
-* Cloud: Azure AI, Azure Functions, Blob Storage
-* Databases: PostgreSQL, Cosmos DB, Vector Databases
-* DevOps: Docker, CI/CD
+* **AI/GenAI:** RAG, Multi-Agent Systems, LangGraph, MCP
+* **Backend:** FastAPI, Node.js, Microservices
+* **Cloud:** Azure AI, Azure Functions, Blob Storage
+* **Databases:** PostgreSQL, Cosmos DB, Vector Databases
+* **DevOps:** Docker, CI/CD
 
 ---
 
 ## 📫 Connect With Me
 
-* LinkedIn: https://www.linkedin.com/in/mahadev-manerikar/
-* Portfolio: https://mahadev-ai.netlify.app/
-* Email: [mahadevmanerikar@gmail.com](mailto:mahadevmanerikar@gmail.com)
+* **LinkedIn:** https://www.linkedin.com/in/mahadev-manerikar/
+* **Portfolio:** https://mahadev-ai.netlify.app/
+* **Email:** [mahadevmanerikar@gmail.com](mailto:mahadevmanerikar@gmail.com)
 
 ---
 
