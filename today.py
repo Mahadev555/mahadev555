@@ -236,32 +236,99 @@ def find_and_replace(root, element_id, new_text):
         el.text = new_text
 
 
-def justify_format(root, element_id, new_text, length=0):
-    if isinstance(new_text, int):
-        new_text = f"{'{:,}'.format(new_text)}"
-    new_text = str(new_text)
-    find_and_replace(root, element_id, new_text)
-    just_len = max(0, length - len(new_text))
-    if just_len <= 2:
-        dot_string = {0: '', 1: ' ', 2: '. '}[just_len]
+COLUMN_WIDTH = 63  # total rendered width of every stats row
+
+
+def fmt(value):
+    """Comma-format ints, pass everything else through as str."""
+    if isinstance(value, int):
+        return '{:,}'.format(value)
+    return str(value)
+
+
+def set_dots(root, element_id, gap):
+    """Write a dot-leader of the given gap width into <id>_dots."""
+    gap = max(0, gap)
+    if gap <= 2:
+        dot_string = {0: '', 1: ' ', 2: '. '}[gap]
     else:
-        dot_string = ' ' + ('.' * just_len) + ' '
+        dot_string = ' ' + ('.' * (gap - 2)) + ' '
     find_and_replace(root, f"{element_id}_dots", dot_string)
+
+
+def justify_row(root, spec):
+    """
+    Lay out one stats row so it ends exactly at COLUMN_WIDTH.
+
+    spec is a list of segments, each either:
+      ('lit', text)              literal text, fixed width
+      ('val', element_id, text)  a value, no dots before it
+      ('pad', element_id, text)  a value preceded by an elastic dot-leader
+
+    All non-'pad' widths are summed; the leftover space is divided
+    among the 'pad' segments, so the row always totals COLUMN_WIDTH.
+    """
+    fixed = 0
+    pads = []
+    for seg in spec:
+        if seg[0] == 'lit':
+            fixed += len(seg[1])
+        elif seg[0] == 'val':
+            text = fmt(seg[2])
+            find_and_replace(root, seg[1], text)
+            fixed += len(text)
+        elif seg[0] == 'pad':
+            text = fmt(seg[2])
+            find_and_replace(root, seg[1], text)
+            fixed += len(text)
+            pads.append(seg[1])
+
+    slack = COLUMN_WIDTH - fixed
+    if not pads:
+        return
+    share, extra = divmod(max(0, slack), len(pads))
+    for i, eid in enumerate(pads):
+        set_dots(root, eid, share + (1 if i < extra else 0))
 
 
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data,
                   contrib_data, follower_data, loc_data):
     tree = etree.parse(filename)
     root = tree.getroot()
-    justify_format(root, 'age_data', age_data, 28)
-    justify_format(root, 'commit_data', commit_data, 16)
-    justify_format(root, 'star_data', star_data, 9)
-    justify_format(root, 'repo_data', repo_data, 4)
-    justify_format(root, 'contrib_data', contrib_data)
-    justify_format(root, 'follower_data', follower_data, 7)
-    justify_format(root, 'loc_data', loc_data[2], 1)
-    justify_format(root, 'loc_add', loc_data[0])
-    justify_format(root, 'loc_del', loc_data[1])
+    # Uptime
+    justify_row(root, [
+        ('lit', '. Uptime:'),
+        ('pad', 'age_data', age_data),
+    ])
+
+    # Repos: NN {Contributed: NN} | Stars: .... NN
+    justify_row(root, [
+        ('lit', '. Repos:'),
+        ('pad', 'repo_data', repo_data),
+        ('lit', ' {Contributed: '),
+        ('val', 'contrib_data', contrib_data),
+        ('lit', '} | Stars:'),
+        ('pad', 'star_data', star_data),
+    ])
+
+    # Commits: N,NNN | Followers: ... NN
+    justify_row(root, [
+        ('lit', '. Commits:'),
+        ('pad', 'commit_data', commit_data),
+        ('lit', ' | Followers:'),
+        ('pad', 'follower_data', follower_data),
+    ])
+
+    # Lines of Code on GitHub: NNN,NNN ( NNN,NNN++, NN,NNN-- )
+    justify_row(root, [
+        ('lit', '. Lines of Code on GitHub:'),
+        ('pad', 'loc_data', loc_data[2]),
+        ('lit', ' ( '),
+        ('val', 'loc_add', loc_data[0]),
+        ('lit', '++, '),
+        ('val', 'loc_del', loc_data[1]),
+        ('lit', '-- )'),
+    ])
     tree.write(filename, encoding='utf-8', xml_declaration=True)
 
 
