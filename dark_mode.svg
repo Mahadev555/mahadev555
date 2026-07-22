@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1081" height="567" viewBox="0 0 1081 567" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="13">
+<rect x="0.5" y="0.5" width="1080" height="566" rx="10" fill="#0d1117" stroke="#30363d"/>
+<g xml:space="preserve">
+<text x="293.6" y="33.0" fill="#8b949e">*********#%#**##*</text>
+<text x="248.0" y="50.0" fill="#8b949e">########****%%%**#%%*#@%#*##</text>
+<text x="240.4" y="67.0" fill="#8b949e">###%%@%%%#*@@@@@@@@@#**@@%##%%##</text>
+<text x="232.8" y="84.0" fill="#8b949e">#%%%@@@@@%@@@@@@@@@@@@#@@@@%#@%%%%</text>
+<text x="225.2" y="101.0" fill="#8b949e">#%%@@@@@@@@@@@@@@@@@@@@@@@@%%%%@@@%%</text>
+<text x="217.6" y="118.0" fill="#8b949e">#%%%@@@@@@@@@@@@@@@@@@@@@@@@@%%#%@@%%#</text>
+<text x="217.6" y="135.0" fill="#8b949e">%%%@@@@@@@@@@@@@@@@@@@@@@@@@%%%###%%%#%</text>
+<text x="217.6" y="152.0" fill="#8b949e">%%@@@@@@@@@@@@@@%%%###%%@@@@@%%#%%%%#%#</text>
+<text x="225.2" y="169.0" fill="#8b949e">%%@@@@@@@@@@@%#***+++**#%%%@@@@@%%%%%#</text>
+<text x="232.8" y="186.0" fill="#8b949e">@@@@@@@@@@%#****++++++**#%@@@@@@%@%##</text>
+<text x="232.8" y="203.0" fill="#8b949e">@@@@@@@@#*******+====+++*#%%@%%%%%%#</text>
+<text x="232.8" y="220.0" fill="#8b949e">@@@@@%#***%%#****+=====++++=#%%####</text>
+<text x="232.8" y="237.0" fill="#8b949e">@@@%#*###%@@@@@@@@@##*++++=-%</text>
+<text x="225.2" y="254.0" fill="#8b949e">+*%**#%##**@@@@@@@@@@@@@%%%%##%</text>
+<text x="225.2" y="271.0" fill="#8b949e">**+*@%****#@@@@@@@@@@@*@@@@@@%#%@@</text>
+<text x="225.2" y="288.0" fill="#8b949e">*+*+%*++++*%%%@@@@@@@+:=@@@@%@@@@@</text>
+<text x="225.2" y="305.0" fill="#8b949e">+***%*+++++++*#%%%%#+=-:%#*%%%#%@</text>
+<text x="232.8" y="322.0" fill="#8b949e">++*#*+++++++++***++++-:=+*#**#@</text>
+<text x="240.4" y="339.0" fill="#8b949e">+##*+++++++****###*++=:--</text>
+<text x="248.0" y="356.0" fill="#8b949e">###**++++*%@@%%%#%#*----</text>
+<text x="248.0" y="373.0" fill="#8b949e">*##***+++##%%%##*+++%=-</text>
+<text x="240.4" y="390.0" fill="#8b949e">++*##**++****+***+==#*+</text>
+<text x="240.4" y="407.0" fill="#8b949e">++***%####%%#*#%%%+-=#</text>
+<text x="232.8" y="424.0" fill="#8b949e">+++****#%%#%%%%@@%#**#</text>
+<text x="210.0" y="441.0" fill="#8b949e">:-*+*++***###@@@@@@@@%#*</text>
+<text x="187.2" y="458.0" fill="#8b949e">::::*#***+++****###%@@@@+...</text>
+<text x="156.8" y="475.0" fill="#8b949e">::::--::*##***++++*******+=-.....</text>
+<text x="111.2" y="492.0" fill="#8b949e">::::::::----::+##*************+=:...........</text>
+<text x="80.8" y="509.0" fill="#8b949e">:::::::::::::----:.##****+********-........................</text>
+<text x="73.2" y="526.0" fill="#8b949e">:::::::::::::::----.+*****++****=:....................:......</text>
+<text x="58.0" y="543.0" fill="#8b949e">:::::::::::-::::::---.=++***++**+......................-.........</text>
+<text x="590.0" y="33.0"><tspan fill="#bc8cff" font-weight="bold">mahadev@github</tspan><tspan fill="#484f58"> ──────────────────────────────────────────────</tspan></text>
+<text x="590.0" y="50.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">OS:</tspan><tspan fill="#484f58"> ...................................... </tspan><tspan fill="#ff7b72">Windows 11, Ubuntu</tspan></text>
+<text x="590.0" y="67.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Uptime:</tspan><tspan fill="#484f58" id="age_data_dots"> ................................. </tspan><tspan fill="#ff7b72" id="age_data">XX years, XX months, XX days</tspan></text>
+<text x="590.0" y="84.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Role:</tspan><tspan fill="#484f58"> ........................................... </tspan><tspan fill="#ff7b72">AI Engineer</tspan></text>
+<text x="590.0" y="101.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">IDE:</tspan><tspan fill="#484f58"> ................................................ </tspan><tspan fill="#ff7b72">VS Code</tspan></text>
+<text x="590.0" y="135.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Languages.Programming:</tspan><tspan fill="#484f58"> ....... </tspan><tspan fill="#ff7b72">Python, JavaScript, TypeScript</tspan></text>
+<text x="590.0" y="152.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Languages.AI:</tspan><tspan fill="#484f58"> ................... </tspan><tspan fill="#ff7b72">LangGraph, MCP, RAG, LLMOps</tspan></text>
+<text x="590.0" y="169.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Languages.Backend:</tspan><tspan fill="#484f58"> .................... </tspan><tspan fill="#ff7b72">FastAPI, Node.js, SQL</tspan></text>
+<text x="590.0" y="203.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Focus.AI:</tspan><tspan fill="#484f58"> ..................... </tspan><tspan fill="#ff7b72">Multi-Agent Systems, RAG, MCP</tspan></text>
+<text x="590.0" y="220.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Focus.Backend:</tspan><tspan fill="#484f58"> ............... </tspan><tspan fill="#ff7b72">Microservices, WebSockets, SSE</tspan></text>
+<text x="590.0" y="237.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Focus.Cloud:</tspan><tspan fill="#484f58"> .............. </tspan><tspan fill="#ff7b72">Azure AI, Functions, Blob Storage</tspan></text>
+<text x="590.0" y="254.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Databases:</tspan><tspan fill="#484f58"> ................ </tspan><tspan fill="#ff7b72">PostgreSQL, Cosmos DB, Vector DBs</tspan></text>
+<text x="590.0" y="271.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">DevOps:</tspan><tspan fill="#484f58"> ....................................... </tspan><tspan fill="#ff7b72">Docker, CI/CD</tspan></text>
+<text x="590.0" y="305.0"><tspan fill="#484f58">- </tspan><tspan fill="#58a6ff" font-weight="bold">Contact</tspan><tspan fill="#484f58"> ───────────────────────────────────────────────────</tspan></text>
+<text x="590.0" y="322.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Email.Personal:</tspan><tspan fill="#484f58"> .................. </tspan><tspan fill="#ff7b72">mahadevmanerikar@gmail.com</tspan></text>
+<text x="590.0" y="339.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">LinkedIn:</tspan><tspan fill="#484f58"> ................................. </tspan><tspan fill="#ff7b72">mahadev-manerikar</tspan></text>
+<text x="590.0" y="356.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Portfolio:</tspan><tspan fill="#484f58"> ........................... </tspan><tspan fill="#ff7b72">mahadev-ai.netlify.app</tspan></text>
+<text x="590.0" y="373.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">GitHub:</tspan><tspan fill="#484f58"> .......................................... </tspan><tspan fill="#ff7b72">mahadev555</tspan></text>
+<text x="590.0" y="407.0"><tspan fill="#484f58">- </tspan><tspan fill="#58a6ff" font-weight="bold">GitHub Stats</tspan><tspan fill="#484f58"> ──────────────────────────────────────────────</tspan></text>
+<text x="590.0" y="424.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Repos:</tspan><tspan fill="#484f58" id="repo_data_dots"> .... </tspan><tspan fill="#ff7b72" id="repo_data">0</tspan><tspan fill="#484f58"> {Contributed: </tspan><tspan fill="#ff7b72" id="contrib_data">0</tspan><tspan fill="#484f58">} | </tspan><tspan fill="#3fb950">Stars:</tspan><tspan fill="#484f58" id="star_data_dots"> ......... </tspan><tspan fill="#ff7b72" id="star_data">0</tspan></text>
+<text x="590.0" y="441.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Commits:</tspan><tspan fill="#484f58" id="commit_data_dots"> ................ </tspan><tspan fill="#ff7b72" id="commit_data">0</tspan><tspan fill="#484f58"> | </tspan><tspan fill="#3fb950">Followers:</tspan><tspan fill="#484f58" id="follower_data_dots"> ....... </tspan><tspan fill="#ff7b72" id="follower_data">0</tspan></text>
+<text x="590.0" y="458.0"><tspan fill="#484f58">. </tspan><tspan fill="#3fb950">Lines of Code on GitHub:</tspan><tspan fill="#484f58" id="loc_data_dots"> </tspan><tspan fill="#ff7b72" id="loc_data">0</tspan><tspan fill="#484f58"> ( </tspan><tspan fill="#3fb950" id="loc_add">0</tspan><tspan fill="#3fb950">++, </tspan><tspan fill="#ff7b72" id="loc_del">0</tspan><tspan fill="#ff7b72">-- </tspan><tspan fill="#484f58">)</tspan></text>
+</g></svg>
