@@ -1,46 +1,9 @@
-```yaml
-                                                  mahadev@github ────────────────────────────────
-                        #*****##* %#              . OS: ................ macOS, Ubuntu, Windows 11
-                    ########%%%%#*%%####          . Uptime: .......................... 3 years, AI
-                  %%%%@@%%%@@@@@@#%@@%%%%         . Host: ......................... Equations Work
-                  %%@@@@@@@@@@@@@@@@%%%@@%        . Kernel: ...................... AI Engineer, Pune
-                 #%@@@@@@@@@@@@@@@@@@%#%%%%%      . IDE: ................ VS Code, PyCharm, Cursor
-                 %%@@@@@@@@%%####%@@@%%%%%%#      .
-                  @@@@@@@@#**++++*#%@@@@%%##      . Languages.Programming: ..... Python, JavaScript
-                   @@@@%#****+===++*#%%%%%#       . Languages.AI: ...... LangGraph, MCP, RAG, LLMOps
-                   @@%###@@@@@%#*+++=+%           . Languages.Backend: ...... FastAPI, Node.js, SQL
-                  **#####%@@@@@@@@@@%%%@          
-                  *+##++*#%@@@@@+=@@@%@@@         
-                  +*##+++++*###+=:*+###@          . Focus.AI: ....... Multi-Agent Systems, RAG, MCP
-                   +#*+++++***##+=-=%#%           . Focus.Backend: ..... Microservices, WebSockets
-                   *##**++#@%%##*+--              . Focus.Cloud: ... Azure AI, Functions, Blob Store
-                   +*#**+******++*+               .
-                   ++*####%##%@*=*#               - Contact ──────────────────────────────────────
-                :-+++**#%%%@@@%##                 . Email.Personal: .... mahadevmanerikar@gmail.com
-              :::+#**+***####%*..                 . LinkedIn: ................. mahadev-manerikar
-        ::::::--:=#*********+-.......             . Portfolio: ........... mahadev-ai.netlify.app
-     :::::::::---.#***+****+:................     . GitHub: ......................... mahadev555
-   ::::::::::::--.+***+**=..............:......   .
-   :::::::::::::-.=+***=...........:...-:::.....  - GitHub Stats ─────────────────────────────────
-  :-:::::::::::--.-++*=.:.....::.::...:-.::-::..  . AI Systems: ... 4+ {Production} | RAG Docs: 1K+
- :::-::::::::::--.:+**=::.....::::..:::-:::---::  . Followers: ......... 67 | Following: ....... 78
- :----::::::::---:.=+**-:....::....::::-::----::  . Focus: ... Scalable AI ( multi-agent, real-time )
-```
-
----
-
-```python
-class SoftwareEngineer:
-    def __init__(self):
-        self.role = "AI Engineer"
-        self.focus = ["Multi-Agent Systems", "RAG", "Backend AI Systems"]
-
-    def say_hi(self):
-        print("Building production-grade AI systems 🚀")
-
-me = SoftwareEngineer()
-me.say_hi()
-```
+<a href="https://github.com/mahadev555/mahadev555">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mahadev555/mahadev555/main/dark_mode.svg">
+    <img alt="Mahadev Manerikar's GitHub Profile README" src="https://raw.githubusercontent.com/mahadev555/mahadev555/main/light_mode.svg">
+  </picture>
+</a>
 
 ---
 
