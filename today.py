@@ -61,7 +61,11 @@ def follower_getter(username):
 
 
 def stars_counter(data):
-    return sum(n['node']['stargazers']['totalCount'] for n in data)
+    return sum(
+              n['node']['stargazers']['totalCount']
+              for n in data
+              if n.get('node') is not None
+          )
 
 
 def graph_repos_stars(count_type, owner_affiliation, cursor=None):
